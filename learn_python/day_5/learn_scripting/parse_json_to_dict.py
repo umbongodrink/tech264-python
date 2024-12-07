@@ -36,3 +36,13 @@ for server in servers:
 print("\n")
 
 
+opilot version. Note the omission of the if check, which could be useful in a more complex setting.
+# for server, key_pairs in servers.items():
+#     print(f"Key and value: '{server}' = '{key_pairs}'")
+#     for individual_key, individual_value in key_pairs.items():
+#         print(f"Record key and sub value: '{individual_key}' = '{individual_value}'")
+
+
+print("\n")
+
+
