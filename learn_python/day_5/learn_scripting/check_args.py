@@ -11,3 +11,15 @@ if len(sys.argv) > 1:
     print("You gave me an argument!")
 else:
     print("You gave me no argument.")
+    print(f"Number of arguments passed: {len(arguments)}")
+    print(f"The other arguments are: {arguments}")
+
+## loop through the argument list and print each argument to the screen
+if len(sys.argv) > 1:
+    arguments = sys.argv[1:]
+    for arg in arguments:
+        print(arg)
+
+## If there are no elements passed to the script, display an error about this
+if len(sys.argv) == 1:
+    print("Error: no arguments passed.")
