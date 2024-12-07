@@ -30,3 +30,9 @@ for server in servers:
                 print(f"Record key and sub value: '{individual_key}' = '{individual_value}'")
 
 
+ '{individual_value}'")
+
+
+print("\n")
+
+
