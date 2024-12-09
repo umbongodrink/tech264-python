@@ -49,3 +49,13 @@ with open('servers_dict.json', 'w') as my_json_file:
 # json.dump() ==> converts a Python dictionary into a JSON file.
 
 
+n.dump() ==> converts a Python dictionary into a JSON file.
+
+## DEMO
+# 1. convert Python dictionary to Json string:
+# new_json_string = json.dumps(servers_dict)
+# print(new_json_string)
+
+# 2. convert Python dict to Json file.
+with open('fresh_dump_servers_dict.json', 'w') as my_json_file:
+    json.dump(servers_dict, my_json_file, indent=4) # servers_dict is the Python dict

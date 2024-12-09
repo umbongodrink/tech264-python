@@ -101,3 +101,11 @@ knowledge may be beneficial for:
 - PowerShell: Automating Windows administration tasks and integrating with Azure.
 
 
+### [ SAMPLE TABLE ]
+
+| Name      |  Type     |  High or Low Level        |
+|-----------|-----------|---------------------------|
+| Python    |  Script   |   High                    |
+| C++       |  Full     | Low                       |
+
+

@@ -46,3 +46,10 @@ opilot version. Note the omission of the if check, which could be useful in a mo
 print("\n")
 
 
+\n")
+
+
+## convert a JSON file to JSON string to a Python file
+#json.loads() ==> loads a JSON string to a Python file
+
+
